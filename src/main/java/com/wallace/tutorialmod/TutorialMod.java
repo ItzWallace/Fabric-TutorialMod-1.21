@@ -2,6 +2,7 @@ package com.wallace.tutorialmod;
 
 import com.wallace.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
+import com.wallace.tutorialmod.block.ModBlocks;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,6 +15,7 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 		//Registers Modded items when game is launched
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
