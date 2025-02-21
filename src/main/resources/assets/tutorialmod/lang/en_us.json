@@ -4,5 +4,9 @@
   "item.tutorialmod.raw_pink_garnet": "Raw Pink Garnet",
 
   "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
-  "block.tutorialmod.raw_pink_garnet_block": "Block of Raw Pink Garnet"
+  "block.tutorialmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
+
+  "itemgroup.tutorialmod.pink_garnet_item": "Pink Garnet Items",
+  "itemgroup.tutorialmod.pink_garnet_block": "Pink Garnet Blocks"
+
 }

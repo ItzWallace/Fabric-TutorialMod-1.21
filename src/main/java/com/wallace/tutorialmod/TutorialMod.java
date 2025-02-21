@@ -1,5 +1,6 @@
 package com.wallace.tutorialmod;
 
+import com.wallace.tutorialmod.item.ModItemGroups;
 import com.wallace.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 import com.wallace.tutorialmod.block.ModBlocks;
@@ -13,6 +14,9 @@ public class TutorialMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModItemGroups.registerItemGroups();
+
 		//Registers Modded items when game is launched
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
