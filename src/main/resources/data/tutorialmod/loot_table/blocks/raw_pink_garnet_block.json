@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "functions": [],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "tutorialmod:raw_pink_garnet_block",
+          "quality": 0
+        }
+      ],
+      "rolls": 1
+    }
+  ],
+  "random_sequence": "tutorialmod:blocks/raw_pink_garnet_block"
+}
